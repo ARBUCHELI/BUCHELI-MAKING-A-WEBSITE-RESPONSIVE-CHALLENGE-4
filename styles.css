@@ -1,0 +1,154 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: #daebe8;
+  }
+  
+  .bar {
+    padding-top: 1rem;
+    background-color: #87bdd8;
+    color: white;
+  }
+  
+  .bar p {
+    left: 25rem;
+  }
+  
+  .intro {
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url('https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-position: center;
+    background-repeat: none;
+    background-color: #d9ad7c;
+  }
+  
+  .intro img {
+    width: 15rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  
+  .intro h1 {
+    color: white;
+    font-size: 2rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+  
+  li {
+    color: white;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+  }
+  
+  .summary,
+  .testimonial,
+  .photos,
+  .meetup {
+    margin: 4em auto;
+  }
+  
+  .summary {
+    padding: 0 1rem;
+  }
+  
+  .summary p {
+    color: #8d9db6;
+  }
+  
+  .testimonial {
+    background-color: #87bdd8;
+    height: 20rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    color: white;
+  }
+  
+  .testimonial h1 {
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+  .summary h2 {
+    color: #87bdd8;
+  }
+  
+  .photos img {
+    width: 30%;
+    margin: 1.5%;
+  }
+  
+  .meetup {
+    margin-bottom: 2rem;
+  }
+  
+  .meetup img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+  .meetup h1 {
+    color: #8d9db6;
+    text-align: center;
+  }
+
+  footer {
+      color: #87bdd8;
+      text-align: center;
+      margin: 10px;
+  }
+  
+  @media only screen and (max-width: 1048px) {
+  
+    .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+  
+    .intro h1 {
+      margin-top: 2rem;
+    }
+  
+    .intro {
+      max-height: 200px;
+    }
+  
+    .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    li {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+  
+    .testimonial h1 {
+      font-size: 2rem;
+    }
+  
+    .photos img {
+      width: 100%;
+    }
+  }
